@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bd9cdd83;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #16ec4454;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #0de41ffd;
+    color: rgb(15, 15, 15);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #ced8ce;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 2px solid #191a19;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e4eee4;
+    color: rgb(18, 3, 29);
+}
+
+.vegetais-e-frutas-frescas-img {
+    max-width: 50%; /* Definindo o tamanho máximo da imagem como 100% para garantir que ela se ajuste ao contêiner */
+    height: auto; /* Mantenha a proporção da imagem */
+    display: block; /* Garantindo que a imagem se comporte como um bloco */
+    margin: 20px auto; /* Reduzindo a margem superior para 20px para trazer a imagem mais próxima do topo */
+}
+
